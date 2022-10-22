@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32802.440
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BatchClientCustomCL", "BatchClientCustomCL.csproj", "{3EBA8424-B9B0-4361-AC01-B1E54EB6A51A}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "BatchClientCustomLogic_Setup", "BatchClientCustomLogic_Setup\BatchClientCustomLogic_Setup.vdproj", "{FF84C2F5-8240-4938-A1EF-DC135439EFC8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3EBA8424-B9B0-4361-AC01-B1E54EB6A51A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EBA8424-B9B0-4361-AC01-B1E54EB6A51A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EBA8424-B9B0-4361-AC01-B1E54EB6A51A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EBA8424-B9B0-4361-AC01-B1E54EB6A51A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF84C2F5-8240-4938-A1EF-DC135439EFC8}.Debug|Any CPU.ActiveCfg = Debug
+		{FF84C2F5-8240-4938-A1EF-DC135439EFC8}.Debug|Any CPU.Build.0 = Debug
+		{FF84C2F5-8240-4938-A1EF-DC135439EFC8}.Release|Any CPU.ActiveCfg = Release
+		{FF84C2F5-8240-4938-A1EF-DC135439EFC8}.Release|Any CPU.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2E3DA8D6-3445-4B1F-8E69-A236DA9AB955}
+	EndGlobalSection
+EndGlobal

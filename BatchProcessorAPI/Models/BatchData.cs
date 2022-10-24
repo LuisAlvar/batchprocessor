@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 
 namespace BatchProcessorAPI.Models
 {
-  public class BatchStartData
+  public class BatchData
   {
-    public List<string> BatchSystemEnvIds { get; set; }
+    public List<string> BatchSystemRegionIds { get; set; }
     public List<string> BatchSolutionIds { get; set; }
   }
 }

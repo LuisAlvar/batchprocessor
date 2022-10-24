@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using BatchProcessorAPI.Models;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -9,7 +10,7 @@ namespace BatchProcessorAPI.Controllers
 {
 
   [ApiController]
-  [Route("[controller]")]
+  [Route("/api/[controller]")]
   public class BatchProcessorController : ControllerBase
   {
     public readonly ILogger<BatchProcessorController> _logger;
@@ -18,6 +19,61 @@ namespace BatchProcessorAPI.Controllers
     {
       _logger = logger;
     }
+
+    [HttpPost]
+    public ActionResult<BatchData> RunNormalProcess(BatchData data)
+    {
+      try
+      {
+
+      }
+      catch (Exception ex)
+      {
+        
+        throw;
+      }
+
+      return NotFound(data);
+    }
+
+    [HttpPost]
+    public ActionResult<BatchData> RunSolutions(BatchData data)
+    {
+      try
+      {
+
+      }
+      catch (Exception ex)
+      { 
+
+        throw;
+      }
+      return NotFound(data);
+    }
+
+    [HttpGet]
+    public ActionResult GetSolutionList()
+    {
+      return NotFound();
+    }
+
+    [HttpGet]
+    public ActionResult GetSolutionInfo()
+    {
+      return NotFound();
+    }
+
+    [HttpPost]
+    public ActionResult CreateSolution()
+    {
+
+      return NotFound();
+    }
+
+
+
+
+
 
   }
 }
